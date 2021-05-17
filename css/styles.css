@@ -288,7 +288,8 @@ p {
 
 .occupation-image,
 .teammember-image,
-.project-thumbnail {
+.project-thumbnail,
+.project-link {
   display: block;
 }
 
@@ -380,7 +381,8 @@ p {
   color: #afb1b8;
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
   color: var(--brand-color);
   border-color: var(--brand-color);
 }
@@ -419,6 +421,16 @@ p {
   margin-bottom: 0;
 }
 
+.project-link {
+  text-decoration: none;
+}
+
+.project-link:hover,
+.project-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .project-info {
   padding: 20px 24px;
   background: #ffffff;
@@ -432,6 +444,7 @@ p {
   font-size: 18px;
   line-height: 2em;
   letter-spacing: 0.06em;
+  color: var(--dark-shade);
 }
 
 .project-description {
