@@ -158,7 +158,6 @@ p {
 }
 
 .hero-section {
-  position: relative;
   padding-top: 280px;
   padding-bottom: 280px;
   background-image: linear-gradient(
@@ -263,10 +262,6 @@ p {
   margin-top: 10px;
   line-height: 1.71em;
   color: var(--light-shade);
-}
-
-.occupation-section {
-  padding-top: 0;
 }
 
 .occupation-heading,
