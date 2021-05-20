@@ -158,8 +158,8 @@ p {
 }
 
 .hero-section {
-  padding-top: 280px;
-  padding-bottom: 280px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -197,6 +197,7 @@ p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 2px solid var(--brand-color);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -219,6 +220,7 @@ p {
   background-color: #f5f4fa;
   color: var(--dark-shade);
   border: none;
+  cursor: pointer;
 }
 
 .filter-button:hover,
@@ -229,13 +231,12 @@ p {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.hero-button:hover,
-.filter-button:hover {
-  cursor: pointer;
-}
-
 .advantages-list {
   display: flex;
+}
+
+.advantages-item {
+  width: 270px;
 }
 
 .advantages-item:not(:last-child) {
@@ -243,10 +244,10 @@ p {
 }
 
 .advantages-icon {
-  padding-top: 25px;
-  padding-bottom: 25px;
+  display: flex;
   height: 120px;
-  width: 270px;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
